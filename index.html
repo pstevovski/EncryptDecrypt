@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Letter Encrpyt & Decrypt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Title -->
+    <h1>ENCRYPT-DECRYPT</h1>
+    
+    <div class="wrapper">
+        <!-- ENCRYPTION AREA -->
+        <div class="wrapper_encryption">
+            <!-- Encryption container -->
+            <div class="container container_encrypt">
+                <h2>Encryption:</h2>
+                <!-- Text area -->
+                <textarea placeholder="Text to be encrypted.." name="text_encrypt" id="text_encrypt" cols="50" rows="10"></textarea>
+            </div>
+
+            <!-- Decryption container -->
+            <div class="container container_decrypt">
+                <!-- Decryption -->
+                <h2>Encrypted:</h2>
+                <!-- Text area for decryption -->
+                <textarea placeholder="Encrypted text..." name="text_encrypted" id="text_encrypted" cols="50" rows="10" disabled></textarea>
+            </div>
+        </div>
+
+
+        <!-- DECRYPTION AREA -->
+        <div class="wrapper_decryption">
+                <!-- Encryption container -->
+                <div class="container container_decrypt">
+                    <h2>Decryption:</h2>
+                    <!-- Text area -->
+                    <textarea placeholder="Text to be decrypted.." name="text_decrypt" id="text_decrypt" cols="50" rows="10"></textarea>
+    
+                    <!-- Buttons to trigger encryption or decryption -->
+                    <div class="buttons">
+                        <button id="callDecryption">Decrypt it!</button>
+                    </div>
+                </div>
+    
+                <!-- Decryption container -->
+                <div class="container container_decrypt">
+                    <!-- Decryption -->
+                    <h2>Decrypted:</h2>
+                    <!-- Text area for decryption -->
+                    <textarea placeholder="Decrypted text..." name="text_decrypted" id="text_decrypted" cols="50" rows="10" disabled></textarea>
+                </div>
+        </div>
+    </div>
+
+    <!-- Script link -->
+    <script src="main.js"></script>
+</body>
+</html>
